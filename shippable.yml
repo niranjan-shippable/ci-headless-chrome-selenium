@@ -13,3 +13,4 @@ build:
     - chromedriver -version
     - yarn install
     - npm run test_webdriver
+    - curl --upload-file ./screenshot.png https://transfer.sh/screenshot.png
